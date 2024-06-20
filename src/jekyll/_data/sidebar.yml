@@ -1,0 +1,43 @@
+en:
+  - name: Yelloadwise App
+    icon: m-sdk
+    children:
+      - name: Android
+        link: /yelloadwise-app/android/main
+        children:
+          - name: Initialization
+            link: /yelloadwise-app/android/initialize
+
+          - name: Rewarded/Interstitial
+            link: /yelloadwise-app/android/rewarded-interstitial
+
+          - name: Native Banner
+            link: /yelloadwise-app/android/native
+
+          - name: Standard Banner
+            link: /yelloadwise-app/android/standard
+
+          - name: Vast
+            link: /yelloadwise-app/android/vast
+
+fa:
+  - name: یلوادوایز اپ
+    icon: m-sdk
+    children:
+      - name: Android
+        link: /yelloadwise-app/android/main
+        children:
+          - name: راه اندازی
+            link: /yelloadwise-app/android/initialize
+
+          - name: جایزه‌ای/آنی
+            link: /yelloadwise-app/android/rewarded-interstitial
+
+          - name: بنر استاندارد
+            link: /yelloadwise-app/android/standard
+
+          - name: بنر همسان
+            link: /yelloadwise-app/android/native
+
+          - name: پیش نمایشی (PreRoll)
+            link: /yelloadwise-app/android/vast

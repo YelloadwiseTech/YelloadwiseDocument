@@ -1,0 +1,87 @@
+# Welcome to Jekyll!
+
+########### Global Variables ###########
+title: 'Yelloadwise: Smart ad network agency'
+email: Irancell.digital@gmail.com
+description: >-
+  Yelloadwise, by dominating a great extent of digital media network and giving various advertising campaigns, is capable of meeting the expectation of the most valuable brands. Additionally, by showing the advertisements to the subscribers in a smart way, we bring a long- lasting and remarkable revenue without any damage to media owners’ practical experience.
+baseurl: '' # the subpath of your site, e.g. /docs
+url: 'https://yelloadwise.ir'
+twitter_username:
+github_username: Yelloadwise
+site_name: Yelloadwise
+global_vars:
+  landing_url: https://yelloadwise.ir
+  dashboard_url: https://business.yelloadwise.ir/
+  blog_url: https://business.yelloadwise.ir/
+  docs_url: https://docs.yelloadwise.ir/
+  site_name: yelloadwise.ir
+  get_demo_url: https://business.yelloadwise.ir/
+  header_logo_alt: Yelloadwise Docs
+  terms_url: https://yelloadwise.ir/rules/
+  faq_url: https://docs.yelloadwise.ir/faq/
+  faq_advertisers_url: https://docs.yelloadwise.ir/faq/advertiser/
+  contact_email: info@yelloadwise.ir
+  footer_logo_alt: Yelloadwise
+
+########### Condfigurations ###########
+
+# Jekyll Configurations: https://jekyllrb.com/docs/configuration/options/
+source: src/jekyll
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  parse_block_html: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-polyglot
+  - jekyll-toc
+
+# jekyll-polyglot settings
+languages: ['en', 'fa']
+default_lang: 'fa'
+exclude_from_localizations: ['javascript', 'images', 'css']
+parallel_localization: true
+
+# jekyll-minifier settings
+jekyll-minifier:
+  exclude: 'feed.xml'
+  uglifier_args:
+    harmony: true
+
+########### Translations ###########
+t:
+  en:
+    nav:
+      home: Home
+      dashboard: Dashboard
+      get_demo: Get a Demo
+      blog: Blog
+      switch_lang: فارسی
+    footer:
+      terms: Terms of Service
+      contact: Contact Us
+      description: Designed and Developed by Yelloadwise - Iran
+  fa:
+    nav:
+      home: خانه
+      dashboard: داشبورد
+      get_demo: دریافت دمو
+      switch_lang: English
+    footer:
+      terms: قوانین و ضوابط
+      contact: تماس با ما
+      faq_advertisers: سوالات متداول تبلیغ‌دهندگان
+      faq: سوالات متداول
+      description: یلوادوایز مسیری برای رساندن پیام شما به مشتریان. کمپین‌های ارجاعی و ساده خود را طراحی کنید و از نتیجه آن شگفت‌زده شوید!

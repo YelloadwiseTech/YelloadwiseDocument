@@ -1,0 +1,41 @@
+<header id="header">
+  <div class="container">
+    <div class="header-content">
+      <div class="header-logo">
+        <a class="logo" href="{{site.global_vars.landing_url}}">
+          <img src="{{ '/assets/images/logos/logo-dark-background.png' | prepend: site.baseurl }}" class="logo-image" alt="{{ site.global_vars.header_logo_alt }}"/>
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <ul class="main-nav">
+          <li class="nav-item">
+            <a href="{{ site.baseurl }}/">
+              <span>{{ site.t[page.lang].nav.home }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ site.global_vars.dashboard_url }}" target="_blank">
+              <span>{{ site.t[page.lang].nav.dashboard }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ site.global_vars.blog_url }}" target="_blank">
+              <span>{{ site.t[page.lang].nav.blog }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            {% assign lang_url = '' %}
+            {% if page.lang == 'fa' %}{% assign lang_url = 'en' %}{% endif %}
+            <a href="{{ site.global_vars.docs_url | append: lang_url }}">
+              <span>{{ site.t[page.lang].nav.switch_lang }}</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-nav-btns">
+      </div>
+    </div>
+  </div>
+</header>
