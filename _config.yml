@@ -19,7 +19,7 @@ global_vars:
   get_demo_url: https://business.yelloadwise.ir/
   header_logo_alt: Yelloadwise Docs
   terms_url: https://yelloadwise.ir/rules/
-  faq_url: https://docs.yelloadwise.ir/faq/
+  faq_url: https://docs.yelloadwise.ir/faq/publisher/
   faq_advertisers_url: https://docs.yelloadwise.ir/faq/advertiser/
   contact_email: info@yelloadwise.ir
   footer_logo_alt: Yelloadwise
