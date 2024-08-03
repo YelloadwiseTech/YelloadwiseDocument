@@ -1,5 +1,5 @@
 yelloadwiseAndroid:
-  sdkVersion: 1.0.0
+  sdkVersion: 1.0.1
   sample: https://github.com/YelloadwiseTech/YelloadwiseSDK-AndroidSample
   releaseNotesFileFa: releases/yelloadwise-android-fa.md
   releaseNotesFileEn: releases/yelloadwise-android-en.md

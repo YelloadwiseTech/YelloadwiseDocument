@@ -18,7 +18,7 @@ mavenCentral()
 خط زیر را به فایل `build.gradle` ماژول برنامه در قسمت `dependencies` اضافه کنید.
 
 ```gradle
-    implementation 'ir.yelloadwise.app:yelloadwise-app-android:1.0.0'
+    implementation 'ir.yelloadwise.app:yelloadwise-app-android:1.0.1'
 ```
 
 با کمک پراکسی gradle را sync کنید تا یلوادوایز به پروژه اضافه شود.
