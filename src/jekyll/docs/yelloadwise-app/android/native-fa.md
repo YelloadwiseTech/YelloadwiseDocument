@@ -73,6 +73,7 @@ import ir.yelloadwise.app.nativeads.YelloadwiseNativeBannerManager;
 .......
 private void requestAd() {
     YelloadwiseNativeBannerManager.getAd(CONTEXT, ZONE_ID_NATIVE,
+                YelloadwiseNativeBannerType.BANNER_1136x640 // Or YelloadwiseNativeBannerType.BANNER_700x340
                 new AdRequestCallback() {
                     @Override
                     public void onResponse(String[] adId) {
