@@ -19,7 +19,7 @@ maven {
 Then add the following lines to the dependencies section of your app-level `build.gradle` file.
 
 ```gradle
-implementation 'ir.yelloadwise.app:yelloadwise-app-android:1.0.1'
+implementation 'ir.yelloadwise.app:yelloadwise-app-android:1.0.2'
 ```
 
 Finally, sync Gradle using a proxy.
